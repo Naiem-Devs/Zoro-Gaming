@@ -1,0 +1,1016 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Filter</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<link rel="shortcut icon" type="image/x-icon" href="#">
+        <!-- Place favicon.ico in the root directory -->
+        
+		<!-- CSS here -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css"> 
+        <link rel="stylesheet" href="assets/css/fontawesome.min.css">  
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+    </head>
+    <body>
+
+       
+    <!-- header-area START -->
+    <div class="header-area filt">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="header_wrp">
+                        <div class="logo">
+                            <div class="bar">
+                                <a class="bar-icon siteBar-btn" href="#">
+                                    <span></span>
+                                </a>
+                            </div>
+                            <a href="#">
+                                <img src="assets/img/logo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="src_filter">
+                            <input type="text" placeholder="Search anime...">
+                            <div class="">
+                                <a href="#" class="src_btn"><i class="fas fa-search"></i></a>
+                                <a href="#" class="Filter_btn">Filter</a>
+                            </div>
+                        </div>
+                        <div class="social_link">
+                            <ul>
+                                <li><a href="#" class="text">Join now</a></li>
+                                <li><a href="#" style="background-color: #6f85d5;"><i class="fab fa-discord"></i></a></li>
+                                <li><a href="#" style="background-color: #08c;"><i class="fab fa-telegram-plane"></i></a></li>
+                                <li><a href="#" style="background-color: #ff3c1f;"><i class="fab fa-reddit-alien"></i></a></li>
+                                <li><a href="#" style="background-color: #1d9bf0;"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="extra_link">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <i><img src="assets/img/live.svg" alt=""></i>
+                                        <span>Watch2gether</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-random"></i>
+                                        <span>Random</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class=" toggle-lang">
+                                            <span class="en">EN</span>
+                                            <span class="jp">JP</span>
+                                        </div>
+                                        <span>Anime Name</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-comments"></i>
+                                        <span>Community</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="donate">
+                            <a href="#" class="donate-btn">donate</a>
+                        </div>
+                        <div class="login_btn">
+                            <a href="#" class="log_btn">Login</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- mobile-menu START -->
+        <div class="mobile-menu">
+            <a href="#" class="bars siteBar-btn"><svg class="bi bi-x" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M11.854 4.146a.5.5 0 010 .708l-7 7a.5.5 0 01-.708-.708l7-7a.5.5 0 01.708 0z" clip-rule="evenodd"/>
+                <path fill-rule="evenodd" d="M4.146 4.146a.5.5 0 000 .708l7 7a.5.5 0 00.708-.708l-7-7a.5.5 0 00-.708 0z" clip-rule="evenodd"/>
+            </svg></a> 
+            <nav> 
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Movies</a></li> 
+                    <li><a href="#">TV Series</a></li> 
+                    <li><a href="#">Most Popular</a></li> 
+                    <li><a href="#">Top Airing</a></li>  
+                </ul>
+            </nav> 
+        </div> 
+    <!-- header-area END -->
+     
+    <main>
+
+        <section class="Filter-Area Filter_wrp">
+            <div class="container">
+                <div class="row">
+                    <div class=" mt-5 mb-4">
+                        <a href="#">Home <div class="dot"></div> Filter</a>
+                    </div>
+                    <div class="filter_box">
+                        <h5 class="title">Filter</h5>
+                        <div class="select_wrp">
+                            <div class="select_blk">
+                                <span>Type</span>
+                                <select id="selectbox1">
+                                    <option value="">All</option>
+                                    <option value="aye">Movie</option>
+                                    <option value="eh">TV</option>
+                                    <option value="ooh">OVA</option>
+                                    <option value="ooh">ONA</option>
+                                    <option value="whoop">Whoop</option>
+                                    <option value="Special">Special</option>
+                                    <option value="Music">Music</option>
+                                </select>
+                            </div>
+                            <div class="select_blk">
+                                <span>Status</span>
+                                <select id="selectbox1">
+                                    <option value="">All</option>
+                                    <option value="aye">Finished Airing</option>
+                                    <option value="eh">Currently Airing</option>
+                                    <option value="ooh">Not yet aired</option>
+                                </select>
+                            </div>
+                            <div class="select_blk">
+                                <span>Rated</span>
+                                <select id="selectbox1">
+                                    <option value="">All</option>
+                                    <option value="aye">Movie</option>
+                                    <option value="eh">TV</option>
+                                    <option value="ooh">OVA</option>
+                                    <option value="ooh">ONA</option>
+                                    <option value="whoop">Whoop</option>
+                                    <option value="Special">Special</option>
+                                    <option value="Music">Music</option>
+                                </select>
+                            </div>
+                            <div class="select_blk">
+                                <span>Score</span>
+                                <select id="selectbox1">
+                                    <option value="">All</option>
+                                    <option value="aye">(1) Appalling</option>
+                                    <option value="eh">(2) Horrible</option>
+                                    <option value="ooh">(3) Very Bad</option>
+                                    <option value="ooh">(4) Bad</option>
+                                    <option value="whoop">(5) Average</option>
+                                    <option value="Special">(6) Fine</option>
+                                    <option value="Muc">(7) Good</option>
+                                    <option value="Very">(8)  Good</option>
+                                    <option value="Great">(9) Great</option>
+                                    <option value="Masterpiece">(10) Masterpiece</option>
+                                </select>
+                            </div>
+                            <div class="select_blk">
+                                <span>Season</span>
+                                <select id="selectbox1">
+                                    <option value="">All</option>
+                                    <option value="aye">Spring</option>
+                                    <option value="eh">Summer</option>
+                                    <option value="ooh">Fall</option>
+                                    <option value="ooh">Winter</option>
+                                </select>
+                            </div>
+                            <div class="select_blk">
+                                <span>Language</span>
+                                <select id="selectbox1">
+                                    <option value="">All</option>
+                                    <option value="aye">SUB</option>
+                                    <option value="eh">DUB</option>
+                                    <option value="ooh">SUB &amp; DUB</option>
+                                </select>
+                            </div>
+                        </div> 
+                        <br>
+                        <div class="select_wrp">
+                            <div class="select_blk">
+                                <span>Start Date</span>
+                                <select id="selectbox1">
+                                    <option value="">Year</option>
+                                    <option value="">2023</option>
+                                    <option value="aye">2022</option>
+                                    <option value="eh">2021</option>
+                                    <option value="ooh">2020</option>
+                                    <option value="ooh">2019</option>
+                                    <option value="ooh">2018</option>
+                                    <option value="ooh">2017</option>
+                                </select>
+                                <select id="selectbox1">
+                                    <option value="">Month</option>
+                                    <option value="aye">01</option>
+                                    <option value="eh">02</option>
+                                    <option value="ooh">03</option>
+                                    <option value="ooh">04</option>
+                                    <option value="ooh">05</option>
+                                    <option value="ooh">06</option>
+                                    <option value="ooh">07</option>
+                                    <option value="ooh">08</option>
+                                    <option value="ooh">09</option>
+                                    <option value="ooh">10</option>
+                                    <option value="ooh">11</option>
+                                    <option value="ooh">12</option>
+                                </select>
+                                <select id="selectbox1">
+                                    <option value="">Day</option>
+                                    <option value="aye">01</option>
+                                    <option value="eh">02</option>
+                                    <option value="ooh">03</option>
+                                    <option value="ooh">04</option>
+                                    <option value="ooh">05</option>
+                                    <option value="ooh">06</option>
+                                    <option value="ooh">07</option>
+                                    <option value="ooh">08</option>
+                                    <option value="ooh">09</option>
+                                    <option value="ooh">10</option>
+                                    <option value="ooh">11</option>
+                                    <option value="ooh">12</option>
+                                </select>
+                            </div>
+                            <div class="select_blk">
+                                <span>End Date</span>
+                                <select id="selectbox1">
+                                    <option value="">Year</option>
+                                    <option value="">2023</option>
+                                    <option value="aye">2022</option>
+                                    <option value="eh">2021</option>
+                                    <option value="ooh">2020</option>
+                                    <option value="ooh">2019</option>
+                                    <option value="ooh">2018</option>
+                                    <option value="ooh">2017</option>
+                                </select>
+                                <select id="selectbox1">
+                                    <option value="">Month</option>
+                                    <option value="aye">01</option>
+                                    <option value="eh">02</option>
+                                    <option value="ooh">03</option>
+                                    <option value="ooh">04</option>
+                                    <option value="ooh">05</option>
+                                    <option value="ooh">06</option>
+                                    <option value="ooh">07</option>
+                                    <option value="ooh">08</option>
+                                    <option value="ooh">09</option>
+                                    <option value="ooh">10</option>
+                                    <option value="ooh">11</option>
+                                    <option value="ooh">12</option>
+                                </select>
+                                <select id="selectbox1">
+                                    <option value="">Day</option>
+                                    <option value="aye">01</option>
+                                    <option value="eh">02</option>
+                                    <option value="ooh">03</option>
+                                    <option value="ooh">04</option>
+                                    <option value="ooh">05</option>
+                                    <option value="ooh">06</option>
+                                    <option value="ooh">07</option>
+                                    <option value="ooh">08</option>
+                                    <option value="ooh">09</option>
+                                    <option value="ooh">10</option>
+                                    <option value="ooh">11</option>
+                                    <option value="ooh">12</option>
+                                </select>
+                            </div>
+                            <div class="select_blk">
+                                <span>Sort</span>
+                                <select id="selectbox1">
+                                    <option value="default">default</option>
+                                    <option value="recently_added">Recently Added</option>
+                                    <option value="recently_updated">Recently Updated</option>
+                                    <option value="score">Score</option>
+                                    <option value="name_az">Name A-Z</option>
+                                    <option value="released_date">Released Date</option>
+                                    <option value="most_watched">Most Watched</option>
+                                </select>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="Genre_tag">
+                            <h5 class="title">Genre</h5>
+                            <ul>
+                                   
+                        <li class="nav-item"><a class="nav-link" href="#">Action</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="#">Adventure</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="#">Cars</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="#">Comedy</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="#">Dementia</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="#">Demons</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="#">Drama</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="#">Ecchi</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="#">Fantasy</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="#">Game</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="#">Harem</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="#">Historical</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="#">Horror</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="#">Isekai</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="#">Josei</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="#">Kids</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="#">Magic</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="#">Martial Arts</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="#">Mecha</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="#">Military</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="#">Music</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="#">Mystery</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="#">Parody</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="#">Police</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="#">Psychological</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="#">Romance</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="#">Samurai</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="#">School</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="#">Sci-Fi</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="#">Seinen</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="#">Shoujo</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="#">Shoujo Ai</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="#">Shounen</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="#">Shounen Ai</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="#">Slice of Life</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="#">Space</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="#">Sports</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="#">Super Power</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="#">Supernatural</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="#">Thriller</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="#">Vampire</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="#">Yaoi</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="#">Yuri</a></li>
+                            </ul>
+                        </div>
+                        <br>
+                        <div class="w-100">
+                            <a href="#" class=" Filt_btn">Filter</a>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </section>
+        
+        
+        
+
+        <section class="Filter-Area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="sec_title flex_title">
+                            <h4>Filter Results  </h4>
+                            <p>5670 results</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="Episode_card_wrp">
+                            <div class="card_blk ">
+                                <i>
+                                    <img src="assets/img/ts-1.jpg" alt="">
+                                    <a href="#" class="play"><i class="fas fa-play"></i></a>
+                                </i>
+                                <div class="card_text">
+                                    <div class="card_btn">
+                                        <span>SUB</span>
+                                        <span class="active">Ep 1</span>
+                                    </div>
+                                    <a href="#">My Life as Inukai-san's Dog (Uncensored)</a>
+                                        <p>TV <i class="dot"></i>  Ep 12 / 12 <i class="dot"></i>  24m</p>
+                                </div>
+                            </div>
+                            <div class="card_blk ">
+                                <i>
+                                    <img src="assets/img/ts-2.jpg" alt="">
+                                    <a href="#" class="play"><i class="fas fa-play"></i></a>
+                                </i>
+                                <div class="card_text">
+                                    <div class="card_btn">
+                                        <span>SUB</span>
+                                        <span class="active">Ep 1</span>
+                                    </div>
+                                    <a href="#">My Life as Inukai-san's Dog (Uncensored)</a>
+                                        <p>TV <i class="dot"></i>  Ep 12 / 12 <i class="dot"></i>  24m</p>
+                                </div>
+                            </div>
+                            <div class="card_blk ">
+                                <i>
+                                    <img src="assets/img/ts-3.jpg" alt="">
+                                    <a href="#" class="play"><i class="fas fa-play"></i></a>
+                                </i>
+                                <div class="card_text">
+                                    <div class="card_btn">
+                                        <span>SUB</span>
+                                        <span class="active">Ep 1</span>
+                                    </div>
+                                    <a href="#">My Life as Inukai-san's Dog (Uncensored)</a>
+                                        <p>TV <i class="dot"></i>  Ep 12 / 12 <i class="dot"></i>  24m</p>
+                                </div>
+                            </div>
+                            <div class="card_blk ">
+                                <i>
+                                    <img src="assets/img/ts-4.png" alt="">
+                                    <a href="#" class="play"><i class="fas fa-play"></i></a>
+                                </i>
+                                <div class="card_text">
+                                    <div class="card_btn">
+                                        <span>SUB</span>
+                                        <span class="active">Ep 1</span>
+                                    </div>
+                                    <a href="#">My Life as Inukai-san's Dog (Uncensored)</a>
+                                        <p>TV <i class="dot"></i>  Ep 12 / 12 <i class="dot"></i>  24m</p>
+                                </div>
+                            </div>
+                            <div class="card_blk ">
+                                <i>
+                                    <img src="assets/img/ts-5.jpg" alt="">
+                                    <a href="#" class="play"><i class="fas fa-play"></i></a>
+                                </i>
+                                <div class="card_text">
+                                    <div class="card_btn">
+                                        <span>SUB</span>
+                                        <span class="active">Ep 1</span>
+                                    </div>
+                                    <a href="#">My Life as Inukai-san's Dog (Uncensored)</a>
+                                        <p>TV <i class="dot"></i>  Ep 12 / 12 <i class="dot"></i>  24m</p>
+                                </div>
+                            </div>
+                            <div class="card_blk ">
+                                <i>
+                                    <img src="assets/img/ts-6.png" alt="">
+                                    <a href="#" class="play"><i class="fas fa-play"></i></a>
+                                </i>
+                                <div class="card_text">
+                                    <div class="card_btn">
+                                        <span>SUB</span>
+                                        <span class="active">Ep 1</span>
+                                    </div>
+                                    <a href="#">My Life as Inukai-san's Dog (Uncensored)</a>
+                                        <p>TV <i class="dot"></i>  Ep 12 / 12 <i class="dot"></i>  24m</p>
+                                </div>
+                            </div>
+                            <div class="card_blk ">
+                                <i>
+                                    <img src="assets/img/ts-1.jpg" alt="">
+                                    <a href="#" class="play"><i class="fas fa-play"></i></a>
+                                </i>
+                                <div class="card_text">
+                                    <div class="card_btn">
+                                        <span>SUB</span>
+                                        <span class="active">Ep 1</span>
+                                    </div>
+                                    <a href="#">My Life as Inukai-san's Dog (Uncensored)</a>
+                                        <p>TV <i class="dot"></i>  Ep 12 / 12 <i class="dot"></i>  24m</p>
+                                </div>
+                            </div>
+                            <div class="card_blk ">
+                                <i>
+                                    <img src="assets/img/ts-2.jpg" alt="">
+                                    <a href="#" class="play"><i class="fas fa-play"></i></a>
+                                </i>
+                                <div class="card_text">
+                                    <div class="card_btn">
+                                        <span>SUB</span>
+                                        <span class="active">Ep 1</span>
+                                    </div>
+                                    <a href="#">My Life as Inukai-san's Dog (Uncensored)</a>
+                                        <p>TV <i class="dot"></i>  Ep 12 / 12 <i class="dot"></i>  24m</p>
+                                </div>
+                            </div>
+                            <div class="card_blk ">
+                                <i>
+                                    <img src="assets/img/ts-3.jpg" alt="">
+                                    <a href="#" class="play"><i class="fas fa-play"></i></a>
+                                </i>
+                                <div class="card_text">
+                                    <div class="card_btn">
+                                        <span>SUB</span>
+                                        <span class="active">Ep 1</span>
+                                    </div>
+                                    <a href="#">My Life as Inukai-san's Dog (Uncensored)</a>
+                                        <p>TV <i class="dot"></i>  Ep 12 / 12 <i class="dot"></i>  24m</p>
+                                </div>
+                            </div>
+                            <div class="card_blk ">
+                                <i>
+                                    <img src="assets/img/ts-4.png" alt="">
+                                    <a href="#" class="play"><i class="fas fa-play"></i></a>
+                                </i>
+                                <div class="card_text">
+                                    <div class="card_btn">
+                                        <span>SUB</span>
+                                        <span class="active">Ep 1</span>
+                                    </div>
+                                    <a href="#">My Life as Inukai-san's Dog (Uncensored)</a>
+                                        <p>TV <i class="dot"></i>  Ep 12 / 12 <i class="dot"></i>  24m</p>
+                                </div>
+                            </div>
+                            <div class="card_blk ">
+                                <i>
+                                    <img src="assets/img/ts-5.jpg" alt="">
+                                    <a href="#" class="play"><i class="fas fa-play"></i></a>
+                                </i>
+                                <div class="card_text">
+                                    <div class="card_btn">
+                                        <span>SUB</span>
+                                        <span class="active">Ep 1</span>
+                                    </div>
+                                    <a href="#">My Life as Inukai-san's Dog (Uncensored)</a>
+                                        <p>TV <i class="dot"></i>  Ep 12 / 12 <i class="dot"></i>  24m</p>
+                                </div>
+                            </div>
+                            <div class="card_blk ">
+                                <i>
+                                    <img src="assets/img/ts-6.png" alt="">
+                                    <a href="#" class="play"><i class="fas fa-play"></i></a>
+                                </i>
+                                <div class="card_text">
+                                    <div class="card_btn">
+                                        <span>SUB</span>
+                                        <span class="active">Ep 1</span>
+                                    </div>
+                                    <a href="#">My Life as Inukai-san's Dog (Uncensored)</a>
+                                        <p>TV <i class="dot"></i>  Ep 12 / 12 <i class="dot"></i>  24m</p>
+                                </div>
+                            </div>
+                            <div class="card_blk ">
+                                <i>
+                                    <img src="assets/img/ts-1.jpg" alt="">
+                                    <a href="#" class="play"><i class="fas fa-play"></i></a>
+                                </i>
+                                <div class="card_text">
+                                    <div class="card_btn">
+                                        <span>SUB</span>
+                                        <span class="active">Ep 1</span>
+                                    </div>
+                                    <a href="#">My Life as Inukai-san's Dog (Uncensored)</a>
+                                        <p>TV <i class="dot"></i>  Ep 12 / 12 <i class="dot"></i>  24m</p>
+                                </div>
+                            </div>
+                            <div class="card_blk ">
+                                <i>
+                                    <img src="assets/img/ts-2.jpg" alt="">
+                                    <a href="#" class="play"><i class="fas fa-play"></i></a>
+                                </i>
+                                <div class="card_text">
+                                    <div class="card_btn">
+                                        <span>SUB</span>
+                                        <span class="active">Ep 1</span>
+                                    </div>
+                                    <a href="#">My Life as Inukai-san's Dog (Uncensored)</a>
+                                        <p>TV <i class="dot"></i>  Ep 12 / 12 <i class="dot"></i>  24m</p>
+                                </div>
+                            </div>
+                            <div class="card_blk ">
+                                <i>
+                                    <img src="assets/img/ts-3.jpg" alt="">
+                                    <a href="#" class="play"><i class="fas fa-play"></i></a>
+                                </i>
+                                <div class="card_text">
+                                    <div class="card_btn">
+                                        <span>SUB</span>
+                                        <span class="active">Ep 1</span>
+                                    </div>
+                                    <a href="#">My Life as Inukai-san's Dog (Uncensored)</a>
+                                        <p>TV <i class="dot"></i>  Ep 12 / 12 <i class="dot"></i>  24m</p>
+                                </div>
+                            </div>
+                            <div class="card_blk ">
+                                <i>
+                                    <img src="assets/img/ts-4.png" alt="">
+                                    <a href="#" class="play"><i class="fas fa-play"></i></a>
+                                </i>
+                                <div class="card_text">
+                                    <div class="card_btn">
+                                        <span>SUB</span>
+                                        <span class="active">Ep 1</span>
+                                    </div>
+                                    <a href="#">My Life as Inukai-san's Dog (Uncensored)</a>
+                                        <p>TV <i class="dot"></i>  Ep 12 / 12 <i class="dot"></i>  24m</p>
+                                </div>
+                            </div>
+                            <div class="card_blk ">
+                                <i>
+                                    <img src="assets/img/ts-5.jpg" alt="">
+                                    <a href="#" class="play"><i class="fas fa-play"></i></a>
+                                </i>
+                                <div class="card_text">
+                                    <div class="card_btn">
+                                        <span>SUB</span>
+                                        <span class="active">Ep 1</span>
+                                    </div>
+                                    <a href="#">My Life as Inukai-san's Dog (Uncensored)</a>
+                                        <p>TV <i class="dot"></i>  Ep 12 / 12 <i class="dot"></i>  24m</p>
+                                </div>
+                            </div>
+                            <div class="card_blk ">
+                                <i>
+                                    <img src="assets/img/ts-6.png" alt="">
+                                    <a href="#" class="play"><i class="fas fa-play"></i></a>
+                                </i>
+                                <div class="card_text">
+                                    <div class="card_btn">
+                                        <span>SUB</span>
+                                        <span class="active">Ep 1</span>
+                                    </div>
+                                    <a href="#">My Life as Inukai-san's Dog (Uncensored)</a>
+                                        <p>TV <i class="dot"></i>  Ep 12 / 12 <i class="dot"></i>  24m</p>
+                                </div>
+                            </div>
+                            <div class="card_blk ">
+                                <i>
+                                    <img src="assets/img/ts-1.jpg" alt="">
+                                    <a href="#" class="play"><i class="fas fa-play"></i></a>
+                                </i>
+                                <div class="card_text">
+                                    <div class="card_btn">
+                                        <span>SUB</span>
+                                        <span class="active">Ep 1</span>
+                                    </div>
+                                    <a href="#">My Life as Inukai-san's Dog (Uncensored)</a>
+                                        <p>TV <i class="dot"></i>  Ep 12 / 12 <i class="dot"></i>  24m</p>
+                                </div>
+                            </div>
+                            <div class="card_blk ">
+                                <i>
+                                    <img src="assets/img/ts-2.jpg" alt="">
+                                    <a href="#" class="play"><i class="fas fa-play"></i></a>
+                                </i>
+                                <div class="card_text">
+                                    <div class="card_btn">
+                                        <span>SUB</span>
+                                        <span class="active">Ep 1</span>
+                                    </div>
+                                    <a href="#">My Life as Inukai-san's Dog (Uncensored)</a>
+                                        <p>TV <i class="dot"></i>  Ep 12 / 12 <i class="dot"></i>  24m</p>
+                                </div>
+                            </div>
+                            <div class="card_blk ">
+                                <i>
+                                    <img src="assets/img/ts-3.jpg" alt="">
+                                    <a href="#" class="play"><i class="fas fa-play"></i></a>
+                                </i>
+                                <div class="card_text">
+                                    <div class="card_btn">
+                                        <span>SUB</span>
+                                        <span class="active">Ep 1</span>
+                                    </div>
+                                    <a href="#">My Life as Inukai-san's Dog (Uncensored)</a>
+                                        <p>TV <i class="dot"></i>  Ep 12 / 12 <i class="dot"></i>  24m</p>
+                                </div>
+                            </div>
+                            <div class="card_blk ">
+                                <i>
+                                    <img src="assets/img/ts-4.png" alt="">
+                                    <a href="#" class="play"><i class="fas fa-play"></i></a>
+                                </i>
+                                <div class="card_text">
+                                    <div class="card_btn">
+                                        <span>SUB</span>
+                                        <span class="active">Ep 1</span>
+                                    </div>
+                                    <a href="#">My Life as Inukai-san's Dog (Uncensored)</a>
+                                        <p>TV <i class="dot"></i>  Ep 12 / 12 <i class="dot"></i>  24m</p>
+                                </div>
+                            </div>
+                            <div class="card_blk ">
+                                <i>
+                                    <img src="assets/img/ts-5.jpg" alt="">
+                                    <a href="#" class="play"><i class="fas fa-play"></i></a>
+                                </i>
+                                <div class="card_text">
+                                    <div class="card_btn">
+                                        <span>SUB</span>
+                                        <span class="active">Ep 1</span>
+                                    </div>
+                                    <a href="#">My Life as Inukai-san's Dog (Uncensored)</a>
+                                        <p>TV <i class="dot"></i>  Ep 12 / 12 <i class="dot"></i>  24m</p>
+                                </div>
+                            </div>
+                            <div class="card_blk ">
+                                <i>
+                                    <img src="assets/img/ts-6.png" alt="">
+                                    <a href="#" class="play"><i class="fas fa-play"></i></a>
+                                </i>
+                                <div class="card_text">
+                                    <div class="card_btn">
+                                        <span>SUB</span>
+                                        <span class="active">Ep 1</span>
+                                    </div>
+                                    <a href="#">My Life as Inukai-san's Dog (Uncensored)</a>
+                                        <p>TV <i class="dot"></i>  Ep 12 / 12 <i class="dot"></i>  24m</p>
+                                </div>
+                            </div>
+                            <div class="card_blk ">
+                                <i>
+                                    <img src="assets/img/ts-1.jpg" alt="">
+                                    <a href="#" class="play"><i class="fas fa-play"></i></a>
+                                </i>
+                                <div class="card_text">
+                                    <div class="card_btn">
+                                        <span>SUB</span>
+                                        <span class="active">Ep 1</span>
+                                    </div>
+                                    <a href="#">My Life as Inukai-san's Dog (Uncensored)</a>
+                                        <p>TV <i class="dot"></i>  Ep 12 / 12 <i class="dot"></i>  24m</p>
+                                </div>
+                            </div>
+                            <div class="card_blk ">
+                                <i>
+                                    <img src="assets/img/ts-2.jpg" alt="">
+                                    <a href="#" class="play"><i class="fas fa-play"></i></a>
+                                </i>
+                                <div class="card_text">
+                                    <div class="card_btn">
+                                        <span>SUB</span>
+                                        <span class="active">Ep 1</span>
+                                    </div>
+                                    <a href="#">My Life as Inukai-san's Dog (Uncensored)</a>
+                                        <p>TV <i class="dot"></i>  Ep 12 / 12 <i class="dot"></i>  24m</p>
+                                </div>
+                            </div>
+                            <div class="card_blk ">
+                                <i>
+                                    <img src="assets/img/ts-3.jpg" alt="">
+                                    <a href="#" class="play"><i class="fas fa-play"></i></a>
+                                </i>
+                                <div class="card_text">
+                                    <div class="card_btn">
+                                        <span>SUB</span>
+                                        <span class="active">Ep 1</span>
+                                    </div>
+                                    <a href="#">My Life as Inukai-san's Dog (Uncensored)</a>
+                                        <p>TV <i class="dot"></i>  Ep 12 / 12 <i class="dot"></i>  24m</p>
+                                </div>
+                            </div>
+                            <div class="card_blk ">
+                                <i>
+                                    <img src="assets/img/ts-4.png" alt="">
+                                    <a href="#" class="play"><i class="fas fa-play"></i></a>
+                                </i>
+                                <div class="card_text">
+                                    <div class="card_btn">
+                                        <span>SUB</span>
+                                        <span class="active">Ep 1</span>
+                                    </div>
+                                    <a href="#">My Life as Inukai-san's Dog (Uncensored)</a>
+                                        <p>TV <i class="dot"></i>  Ep 12 / 12 <i class="dot"></i>  24m</p>
+                                </div>
+                            </div>
+                            <div class="card_blk ">
+                                <i>
+                                    <img src="assets/img/ts-5.jpg" alt="">
+                                    <a href="#" class="play"><i class="fas fa-play"></i></a>
+                                </i>
+                                <div class="card_text">
+                                    <div class="card_btn">
+                                        <span>SUB</span>
+                                        <span class="active">Ep 1</span>
+                                    </div>
+                                    <a href="#">My Life as Inukai-san's Dog (Uncensored)</a>
+                                        <p>TV <i class="dot"></i>  Ep 12 / 12 <i class="dot"></i>  24m</p>
+                                </div>
+                            </div>
+                            <div class="card_blk ">
+                                <i>
+                                    <img src="assets/img/ts-6.png" alt="">
+                                    <a href="#" class="play"><i class="fas fa-play"></i></a>
+                                </i>
+                                <div class="card_text">
+                                    <div class="card_btn">
+                                        <span>SUB</span>
+                                        <span class="active">Ep 1</span>
+                                    </div>
+                                    <a href="#">My Life as Inukai-san's Dog (Uncensored)</a>
+                                        <p>TV <i class="dot"></i>  Ep 12 / 12 <i class="dot"></i>  24m</p>
+                                </div>
+                            </div>
+                            <div class="card_blk ">
+                                <i>
+                                    <img src="assets/img/ts-1.jpg" alt="">
+                                    <a href="#" class="play"><i class="fas fa-play"></i></a>
+                                </i>
+                                <div class="card_text">
+                                    <div class="card_btn">
+                                        <span>SUB</span>
+                                        <span class="active">Ep 1</span>
+                                    </div>
+                                    <a href="#">My Life as Inukai-san's Dog (Uncensored)</a>
+                                        <p>TV <i class="dot"></i>  Ep 12 / 12 <i class="dot"></i>  24m</p>
+                                </div>
+                            </div>
+                            <div class="card_blk ">
+                                <i>
+                                    <img src="assets/img/ts-2.jpg" alt="">
+                                    <a href="#" class="play"><i class="fas fa-play"></i></a>
+                                </i>
+                                <div class="card_text">
+                                    <div class="card_btn">
+                                        <span>SUB</span>
+                                        <span class="active">Ep 1</span>
+                                    </div>
+                                    <a href="#">My Life as Inukai-san's Dog (Uncensored)</a>
+                                        <p>TV <i class="dot"></i>  Ep 12 / 12 <i class="dot"></i>  24m</p>
+                                </div>
+                            </div>
+                            <div class="card_blk ">
+                                <i>
+                                    <img src="assets/img/ts-3.jpg" alt="">
+                                    <a href="#" class="play"><i class="fas fa-play"></i></a>
+                                </i>
+                                <div class="card_text">
+                                    <div class="card_btn">
+                                        <span>SUB</span>
+                                        <span class="active">Ep 1</span>
+                                    </div>
+                                    <a href="#">My Life as Inukai-san's Dog (Uncensored)</a>
+                                        <p>TV <i class="dot"></i>  Ep 12 / 12 <i class="dot"></i>  24m</p>
+                                </div>
+                            </div>
+                            <div class="card_blk ">
+                                <i>
+                                    <img src="assets/img/ts-4.png" alt="">
+                                    <a href="#" class="play"><i class="fas fa-play"></i></a>
+                                </i>
+                                <div class="card_text">
+                                    <div class="card_btn">
+                                        <span>SUB</span>
+                                        <span class="active">Ep 1</span>
+                                    </div>
+                                    <a href="#">My Life as Inukai-san's Dog (Uncensored)</a>
+                                        <p>TV <i class="dot"></i>  Ep 12 / 12 <i class="dot"></i>  24m</p>
+                                </div>
+                            </div>
+                            <div class="card_blk ">
+                                <i>
+                                    <img src="assets/img/ts-5.jpg" alt="">
+                                    <a href="#" class="play"><i class="fas fa-play"></i></a>
+                                </i>
+                                <div class="card_text">
+                                    <div class="card_btn">
+                                        <span>SUB</span>
+                                        <span class="active">Ep 1</span>
+                                    </div>
+                                    <a href="#">My Life as Inukai-san's Dog (Uncensored)</a>
+                                        <p>TV <i class="dot"></i>  Ep 12 / 12 <i class="dot"></i>  24m</p>
+                                </div>
+                            </div>
+                            <div class="card_blk ">
+                                <i>
+                                    <img src="assets/img/ts-6.png" alt="">
+                                    <a href="#" class="play"><i class="fas fa-play"></i></a>
+                                </i>
+                                <div class="card_text">
+                                    <div class="card_btn">
+                                        <span>SUB</span>
+                                        <span class="active">Ep 1</span>
+                                    </div>
+                                    <a href="#">My Life as Inukai-san's Dog (Uncensored)</a>
+                                        <p>TV <i class="dot"></i>  Ep 12 / 12 <i class="dot"></i>  24m</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-5">
+                    <ul class="pagination pagination-lg justify-content-center">
+                        <li class="page-item active"><a class="page-link">1</a></li>
+                        <li class="page-item"><a title="Page 2" class="page-link" href="javascript:void(0)">2</a></li>
+                        <li class="page-item"><a title="Page 3" class="page-link" href="javascript:void(0)">3</a></li>
+                        <li class="page-item"><a title="Next" class="page-link" href="javascript:void(0)">›</a></li>
+                        <li class="page-item"><a title="Last" class="page-link" href="javascript:void(0)">»</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer_logo">
+                        <div class="logo">
+                            <a href="#">
+                                <img src="assets/img/logo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="social_link">
+                            <ul>
+                                <li><a href="#" style="background-color: #6f85d5;"><i class="fab fa-discord"></i></a></li>
+                                <li><a href="#" style="background-color: #08c;"><i class="fab fa-telegram-plane"></i></a></li>
+                                <li><a href="#" style="background-color: #ff3c1f;"><i class="fab fa-reddit-alien"></i></a></li>
+                                <li><a href="#" style="background-color: #1d9bf0;"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="AZ_list">
+                        <div class="AZ_list_title"><b>A-Z</b> <p>LISTSearching anime order by alphabet name A to Z.</p></div>
+                        <ul>
+                            <li><a href="#">all</a></li>
+                            <li><a href="#">#</a></li>
+                            <li><a href="#">0-9</a></li>
+                            <li><a href="#">a</a></li>
+                            <li><a href="#">b</a></li>
+                            <li><a href="#">c</a></li>
+                            <li><a href="#">d</a></li>
+                            <li><a href="#">e</a></li>
+                            <li><a href="#">f</a></li>
+                            <li><a href="#">g</a></li>
+                            <li><a href="#">h</a></li>
+                            <li><a href="#">i</a></li>
+                            <li><a href="#">j</a></li>
+                            <li><a href="#">k</a></li>
+                            <li><a href="#">l</a></li>
+                            <li><a href="#">m</a></li>
+                            <li><a href="#">n</a></li>
+                            <li><a href="#">o</a></li>
+                            <li><a href="#">p</a></li>
+                            <li><a href="#">q</a></li>
+                            <li><a href="#">r</a></li>
+                            <li><a href="#">s</a></li>
+                            <li><a href="#">t</a></li>
+                            <li><a href="#">u</a></li>
+                            <li><a href="#">v</a></li>
+                            <li><a href="#">w</a></li>
+                            <li><a href="#">x</a></li>
+                            <li><a href="#">y</a></li>
+                            <li><a href="#">z</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_link">
+                        <ul>
+                            <li><a href="#">Terms of service</a></li>
+                            <li><a href="#">DMCA</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_btm">
+                        <p>Zoro does not store any files on our server, we only linked to the media which is hosted on 3rd party services.</p>
+                        <p>© Zoro.to</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+<style>
+
+</style>
+
+		<!-- JS here --> 
+        <script src="assets/js/jquery-3.4.1.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery.sticky.js"></script> 
+        <script src="assets/js/select.js"></script> 
+        <script src="assets/js/owl.carousel.min.js"></script> 
+        <script src="assets/js/main.js"></script>
+
+    </body>
+</html>
