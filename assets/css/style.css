@@ -579,6 +579,11 @@ section.zoroHero-Area:before {
 .fa-arrow-circle-right {
 }
 .share_zoro-Area {margin-top: 110px;}
+
+section.share_zoro-Area.mt-0.OnePiec_hh {
+    background: #121315;
+    padding: 20px 0;
+}
 .container {
 }
 .share_zoro_top {display: inline-block;width: 100%;margin-bottom: 30px;background-color: #121315;border-radius: 10px;padding: 20px 20px;position: relative;padding-left: 40px;}
@@ -788,7 +793,23 @@ a.read_more {text-align: center;display: flex;align-items: center;justify-conten
 
 .hero_slider_btn a.thm_btn i.fa-angle-right {margin-left: 4px;}
 
-.owl_btn_sq{}
+.hero-Area .owl-dots{
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+.hero-Area .owl-dot {
+    width: 10px;
+    height: 10px;
+    background: #ffff;
+    margin: 5px 0;
+    border-radius: 50%;
+}
+
+.hero-Area .owl-dot.active {
+    background: #FFC107;
+}
 .owl_btn_sq .owl-nav {
     position: absolute;
 }
@@ -1347,8 +1368,7 @@ section.Episode-Area{
     font-weight: 500;
     color: #fff;
 }
-.sb-genre-less {
-}
+.one_wrp .sb-genre-less {height: 545px;overflow: hidden;}
  ul.sb-genre-list li a:hover {
     background: #414248
 }
@@ -2123,11 +2143,26 @@ h5.title {
 .OnePiece-Area {
     overflow: hidden;
     position: relative;
-    padding: 80px 0 60px;
+    /* padding: 80px 0 60px; */
 }
-.OnePiece-cover {inset: -20px;background-size: cover;background-position: center center;filter: blur(20px);opacity: 0.35;position: absolute;width: 100%;background-image: url(./assets/img/ts-1.jpg);}
-.OnePiece_left {position: relative;display: flex;margin-left: 200px;}
-.OnePiece_img {max-width: 180px;}
+
+section.OnePiece-Area.oamain .OnePiece_left {
+    margin-bottom: 50px;
+}
+.OnePiece-cover {inset: -20px;background-size: cover;background-position: center center;filter: blur(20px);opacity: 0.35;position: absolute;width: 100%;background-image: url(./assets/img/ts-1.jpg);z-index: -1;}
+.OnePiece_left {position: relative;display: flex;margin-left: 200px;padding: 100px 0;}
+.OnePiece_img {max-width: 180px;width: 100%;}
+
+.OnePiece_img i {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.OnePiece_img img {
+    width: 100%;
+}
 
 .OnePiece_img > i img {
     width: 100%;
@@ -2159,6 +2194,7 @@ h5.title {
     border-radius: 0.45rem;
     border: 1px solid rgba(255, 255, 255, 0.3);
     color: rgb(255, 255, 255) !important;
+    flex-shrink: 0;
 }
 
 .mgicon_btn a img {
@@ -2166,7 +2202,17 @@ h5.title {
     flex-shrink: 0;
     margin-right: 10px;
 }
-.OnePiece_content {max-width: 800px;margin-left: 50px;}
+.OnePiece_content {max-width: 660px;margin-left: 50px;}
+
+.OnePiece_content.watch_btm p {
+    color: #fff;
+}
+
+.OnePiece_content h4 {
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 18px;
+}
 
 .OnePiece_content h1 {
     font-weight: 600;
@@ -2207,6 +2253,7 @@ h5.title {
     font-size: 16px;
     background: #fff;
     color: #000;
+    margin-right: 10px;
 }
 
 .Piece_btn a i {
@@ -2218,7 +2265,18 @@ h5.title {
 .share_zoro_top {
 }
 .OnePiece_content .share_zoro_text {margin-left: -20px;margin-bottom: 0;}
-.OnePiece_right {position: relative;}
+.OnePiece_righttwo {position: relative;max-width: 410px;margin-left: auto;height: 100%;padding: 100px 30px;z-index: 1;}
+
+.OnePiece_righttwo:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(255 255 255 / 10%);
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
 .OnePiece_right_list {width: 100%;display: inline-block;}
 
 .OnePiece_right_list ul li {
@@ -2529,7 +2587,28 @@ h5.title {
     background: #111;
 }
 section.OnePiece-Area.oamain .OnePiece_left,section.OnePiece-Area.oamain .OnePiece_right {
-    margin: 0;
+    /* margin: 0; */
+}
+
+.OnePiece_right.watch_right {
+    margin-top: 70px;
+    padding-left: 10px;
+}
+
+.OnePiece_right.watch_right .OnePiece_img i {
+    max-width: 127px;
+}
+
+.OnePiece_right.watch_right .mgicon_btn a {
+    width: 162px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 0;
+}
+
+.OnePiece_right.watch_right .OnePiece_img {
+    display: flex;
+    margin-bottom: 20px;
 }
 .ep-info-wrp{
     padding: 15px;
@@ -2684,7 +2763,7 @@ section.OnePiece-Area.oamain .OnePiece_left,section.OnePiece-Area.oamain .OnePie
 
 
 
-.maincomments-all-wrp {background: #2a2c31;padding: 30px;}
+.maincomments-all-wrp {background: #2a2c31;padding: 30px;margin-bottom: 40px;}
 .maincomments > h4{
     font-size: 22px!important;
     line-height: 40px;
@@ -2751,7 +2830,7 @@ section.OnePiece-Area.oamain .OnePiece_left,section.OnePiece-Area.oamain .OnePie
     align-items: flex-start;
     position: relative;
     width: 100%;
-    margin: 20px 0;
+    margin: 23px 0;
     font-size: 13px;
 }
 
@@ -2775,6 +2854,7 @@ section.OnePiece-Area.oamain .OnePiece_left,section.OnePiece-Area.oamain .OnePie
 
 .commentBx  .commentBx-txtarea {
     position: relative;
+    margin-bottom: 10px;
 }
 
 .commentBx .commentBx-txtarea textarea {
@@ -2845,7 +2925,8 @@ section.OnePiece-Area.oamain .OnePiece_left,section.OnePiece-Area.oamain .OnePie
 }
 
 .commentWrp p {
-    line-height: 1.5; 
+    line-height: 1.5;
+    margin-bottom: 6px;
 }
 
 .commentWrp > ul {
@@ -2960,6 +3041,94 @@ section.OnePiece-Area.oamain .OnePiece_left,section.OnePiece-Area.oamain .OnePie
     background-color: #121315;
 }
 
+.watch_vote {max-width: 330px;}
+.view_d {background: #fff;color: #000;border-radius: 4px;padding: 2px 5px;margin: 10px 0 30px;display: inline-block;}
+.Vote_blk {background: rgb(0 0 0 / 35%);border-radius: 12px;overflow: hidden;margin-bottom: 20px;}
+
+.Vote_blk ul li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #DAD6D3, #E3E1E0);
+    color: #000;
+    padding: 10px;
+    transition: .3s;
+}
+
+.Vote_blk ul li a:hover {
+    background: linear-gradient(45deg, #ffffff, #ffffff);
+}
+
+.Vote_blk ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Vote_blk ul li {width: 100%;}
+
+.Vote_blk ul li i {
+    font-style: normal;
+}
+.Vote_top {padding:  20px;}
+
+.Vote_top p {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.Vote_top a {
+    font-weight: 600;
+    color: #fff;
+    font-size: 15px;
+}
+
+.Vote_top div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.Vote_top h6 {
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.Vote_top h6 i {
+    font-size: 12px;
+    color: #FFC107;
+    margin-right: 5px;
+}
+
+.Vote_top h6 span {
+    font-size: 12px;
+    font-weight: 400;
+}
+.Vote_comment {background: #ffffff40;display: flex;justify-content: space-between;padding: 15px 20px;border-radius: 12px;overflow: hidden;position: relative;}
+
+.Vote_comment img {
+    width: 65px;
+    position: absolute;
+    right: 16px;
+    bottom: -30px;
+}
+.Vote_comment_txt {display: flex;align-items: center;}
+
+.Vote_comment_txt i {
+    font-size: 24px;
+    color: var(--thmColor);
+    margin-right: 15px;
+}
+
+.Vote_comment_txt p {
+    margin-bottom: 0;
+}
+
+.Vote_comment_txt h6 {
+    margin-bottom: 2px;
+}
 
 
 

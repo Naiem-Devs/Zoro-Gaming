@@ -26,7 +26,7 @@
       '<i class="fas fa-angle-right"></i>'
     ],
     nav: true,
-    dots: false,
+    dots: true,
     smartSpeed: 1000
   });
 
@@ -44,7 +44,10 @@
     dots: false,
     responsive: {
       0: {
-        items: 1
+        items: 2
+      },
+      450: {
+        items: 2
       },
       767: {
         items: 3

@@ -508,27 +508,36 @@ h1.mw-heading {
 .hero_slider_blk .title span {
     font-size: 14px;
 }
+
+.hero_slider_btn a {
+    font-size: 14px;
+    padding: 8px 15px;
+}
 .donate {
     display: none;
 }
 
 .hero_slider_blk .title h1 {
-    font-size: 22px;
+    font-size: 20px;
     max-width: 280px;
-    margin: 15px 0 15px;
+    margin: 10px 0 10px;
 }
 
 .hero_slider_blk .desi-description p {
     max-width: 256px;
     line-height: 1.4;
     margin-bottom: 20px;
+    -webkit-line-clamp: 2;
+    margin-top: 0;
 }
 
 .hero_slider .owl-nav {
     right: 10px;
+    display: none;
 }
 .hero_slider_blk {
-    padding-top: 90px;
+    padding-top: 150px;
+    padding-bottom: 30px;
 }
 .commen_top,.comment_wrp {
     padding-left: 0;
@@ -582,9 +591,34 @@ h1.mw-heading {
     font-size: 15px;
 }
 .Trending_slider_blk {
-    height: 270px;
-    width: max-content;
+    height: 250px;
     position: relative;
+    padding-left: 0;
+}
+
+.Trending_slider_blk .ts_text {
+    left: 0;
+    top: 0;
+    height: 39px;
+    background: #fff;
+}
+
+.ts_text span {
+    display: none;
+}
+
+.Trending_slider_blk .ts_text h4 {
+    top: 0;
+    left: 0;
+    color: #000;
+}
+
+section.Trending_area .container {
+    padding-right: 0;
+}
+
+.Trending_slider .owl-nav {
+    display: none;
 }
 
 .Trending_slider .owl-nav i {
