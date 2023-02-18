@@ -155,42 +155,50 @@ if ($('.table_schedule-list li').length > 7) {
     $('#scl-more').show();
 }
 
-var scheduleSw = new Swiper('.schedule-full .table_schedule-date .swiper-container', {
-    slidesPerView: 7,
-    spaceBetween: 10,
-    // centeredSlides: true,
-    navigation: {
-        nextEl: '.schedule-full .tsn-next',
-        prevEl: '.schedule-full .tsn-prev',
-    },
-    breakpoints: {
-        320: {
-            slidesPerView: 3,
-            spaceBetween: 10,
-        },
-        360: {
-            slidesPerView: 3,
-            spaceBetween: 10,
-        },
-        480: {
-            slidesPerView: 3,
-            spaceBetween: 10,
-        },
-        640: {
-            slidesPerView: 4,
-            spaceBetween: 10,
-        },
-        768: {
-            slidesPerView: 5,
-            spaceBetween: 10,
-        },
-        1024: {
-            slidesPerView: 7,
-            spaceBetween: 13,
-        },
-    },
-});
-scheduleSw.slideTo($(".tsd-item").index($(".tsd-item.active")), 1000);
+if (document.querySelectorAll('.schedule-full .table_schedule-date .swiper-container').length > 0) {
+
+
+
+  var scheduleSw = new Swiper('.schedule-full .table_schedule-date .swiper-container', {
+      slidesPerView: 7,
+      spaceBetween: 10,
+      // centeredSlides: true,
+      navigation: {
+          nextEl: '.schedule-full .tsn-next',
+          prevEl: '.schedule-full .tsn-prev',
+      },
+      breakpoints: {
+          320: {
+              slidesPerView: 3,
+              spaceBetween: 10,
+          },
+          360: {
+              slidesPerView: 3,
+              spaceBetween: 10,
+          },
+          480: {
+              slidesPerView: 3,
+              spaceBetween: 10,
+          },
+          640: {
+              slidesPerView: 4,
+              spaceBetween: 10,
+          },
+          768: {
+              slidesPerView: 5,
+              spaceBetween: 10,
+          },
+          1024: {
+              slidesPerView: 7,
+              spaceBetween: 13,
+          },
+      },
+  });
+  scheduleSw.slideTo($(".tsd-item").index($(".tsd-item.active")), 1000);
+    
+}
+
+
 setTimeout(function () {
     $(".tsd-item.active").click();
 }, 1000)
