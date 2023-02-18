@@ -47,15 +47,15 @@
         items: 1
       },
       767: {
-        items: 2
-      },
-      992: {
         items: 3
       },
-      1200: {
-        items: 5
+      992: {
+        items: 4
       },
-      1500: {
+      1200: {
+        items: 4
+      },
+      1600: {
         items: 8
       }
     }
@@ -76,12 +76,21 @@
     dots: true,
     responsive: {
       0: {
-        items: 2
+        items: 1
       },
       767: {
         items: 3
       },
       992: {
+        items: 4
+      },
+      1200: {
+        items: 4
+      },
+      1500: {
+        items: 4
+      },
+      1750: {
         items: 5
       }
     }

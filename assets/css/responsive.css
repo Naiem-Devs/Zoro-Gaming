@@ -1,12 +1,320 @@
-/* Big screen :1200px. */
-@media (min-width: 1200px) and (max-width: 1500px) {
+@media (min-width: 1501px) and (max-width: 1750px) {
+    
+    .hero_slider .owl-nav {right: 10px;}
+    .Trending_slider_blk {
+        height: 100%;
+        max-height: 250px;
+    }
+    
+    .Trending_slider_blk i {
+        width: 100%;
+    }
+    .comment_left img {
+        max-width: 360px;
+    }
+    
+    .comment_wrp {
+        padding-left: 100px;
+    }
+    
+    .commen_top {
+        padding-left: 100px;
+    }
+    .card_blk {
+        max-width: 100%;
+        flex: 0 0 19%;
+    }
 
+    .card_blk:nth-child(5n) {
+        margin-right: 0;
+    }
+
+    .card_blk:nth-child(6n) {
+        margin: 0 5px 14px;
+    }
+    
+}
+
+
+/* Big screen :1200px. */
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+/* ________Page Start_________ */
+.src_filter {
+    margin-right: 20px;
+    max-width: 200px;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.src_filter div {
+    display: flex;
+    align-items: center;
+}
+
+.logo .bar {
+    margin-right: 20px;
+}
+
+.extra_link {
+    margin: 0 5px;
+}
+
+.Filter_btn {
+    font-size: 10px;
+}
+.hero_slider_blk {
+    padding: 140px 0 20px;
+}
+
+.hero_slider_blk .title h1 {
+    font-size: 44px;
+}
+
+.hero_slider_blk .desi-description p {
+    max-width: 570px;
+}
+
+.hero_slider .owl-nav {
+    right: 10px;
+}
+.Trending_slider_blk i {
+    width: 100%;
+}
+
+.Trending_slider_blk {
+    height: 340px;
+}
+.Trending_slider .owl-nav i {
+    height: 160px;
+}
+.comment_left img {
+    display: none;
+}
+
+.commen_top {
+    padding-left: 0;
+}
+
+.comment_wrp {
+    padding-left: 0;
+}
+.comment-area .d-none {
+    display: none !important;
+}
+
+.comment-area  .col-lg-12.col-xl-10 {
+    width: 96%;
+}
+
+.comment-area .row {
+    justify-content: center;
+}
+.Episode_right {
+    width: 29%;
+}
+
+.Episode_left {
+    width: 69%;
+}
+
+.Episode_left .col-lg-6.col-md-6.col-xl-3 {
+    width: 50%;
+}
+
+.card_blk {
+    flex: 0 0 23.4%;
+    height: 360px;
+}
+
+.card_blk_lg {min-height: 470px;}
+
+.table_schedule {
+    max-width: 97%;
+}
+.card_blk:nth-child(4n) {
+    margin-right: 0;
+}
+
+.card_blk:nth-child(6n) {
+    margin: 0 6px 14px;
+}
+.card_blk > i {
+    height: 270px;
+}
+
+.card_blk_lg > i {
+    height: 320px;
+}
+/* _________Page End________ */
+
+
+/* ________Page Start_________ */
+section.Filter-Area .card_blk {
+    flex: 0 0 19%;
+    max-width: 100%;
+}
+
+section.Filter-Area .card_blk:nth-child(4n) {
+    margin: 0 6px 14px;
+}
+
+section.Filter-Area .card_blk:nth-child(5n) {
+    margin-right: 0;
+}
+/* _________Page End________ */
+
+/* ________Page Start_________ */
+/* _________Page End________ */
+
+/* ________Page Start_________ */
+/* _________Page End________ */
+
+/* ________Page Start_________ */
+/* _________Page End________ */
+
+/* ________Page Start_________ */
+/* _________Page End________ */
 
 }
 
 
 /* Normal screen :992px. */
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container.cmd{
+    width: 80%;
+}
+/* ________Page Start_________ */
+section.zoroHero-Area {
+    padding: 0 20px;
+}
+
+.header-area.zoro_header {
+    padding-left: 20px;
+}
+
+img.zoroHero {
+    max-width: 475px;
+}
+
+.src_bar input {
+    max-width: 450px;
+}
+
+.src_tag {
+    max-width: 500px;
+}
+.mwb-left {
+    padding-right: 40px;
+}
+
+section.share_zoro-Area {
+    padding: 0 20px;
+}
+.header-area.zoro_header{
+    padding-top: 30px;
+}
+/* _________Page End________ */
+
+/* ________Page Start_________ */
+.src_filter {
+    display: none;
+}
+
+.header-area .social_link ul li a.text {
+    display: none;
+}
+
+.social_link {
+    margin-left: 20px;
+}
+.hero_slider_blk .title h1 {
+    font-size: 30px;
+    max-width: 400px;
+}
+
+.hero_slider_blk .desi-description p {
+    max-width: 400px;
+}
+.commen_top,.comment_wrp {
+    padding-left: 0;
+}
+.seris_list_blk {
+    margin-bottom: 25px;
+}
+.Episode_right {
+    width: 100%;
+    padding: 0 10px;
+    padding-left: 20px;
+}
+
+.Episode_left {
+    width: 100%;
+}
+
+.Episode_wrp {
+    flex-direction: column;
+}
+
+.card_blk {
+    flex: 0 0 31%;
+    max-width: 100%;
+    margin: 10px;
+    height: 400px;
+}
+
+.card_blk_lg {
+    min-height: 510px;
+}
+
+.Episode_card_wrp {
+    justify-content: center;
+}
+
+.card_blk:nth-child(3n) {
+    margin-right: 0;
+}
+
+.card_blk > i {max-height: 300px;}
+
+.table_schedule {
+    max-width: 97%;
+    margin: auto;
+}
+
+.hero_slider .owl-nav {
+    right: 10px;
+}
+.Trending_slider_blk {
+    height: 250px;
+}
+
+.Trending_slider_blk i {
+    width: 100%;
+}
+.Trending_slider .owl-nav i {
+    height: 120px;
+}
+.AZ_list ul li a {
+    margin-right: 5px;
+}
+h4.cat-heading {
+    padding-left: 15px;
+}
+.OnePiece_left {
+    margin-left: 0;
+    padding-right: 50px;
+}
+/* _________Page End________ */
+
+/* ________Page Start_________ */
+/* _________Page End________ */
+
+/* ________Page Start_________ */
+/* _________Page End________ */
+
+/* ________Page Start_________ */
+/* _________Page End________ */
 
 
 }
@@ -14,19 +322,434 @@
  
 /* Tablet screen :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
+/* ________Page Start_________ */
+.header-area.zoro_header{
+    padding-top: 30px;
+}
+img.zoroHero {
+    display: none;
+}
 
+.zoro-hero_home {
+    max-width: 551px;
+    margin: auto;
+    padding: 110px 0 60px;
+}
+
+.src_bar input {
+    max-width: 450px;
+}
+.share_zoro_right {
+    margin: auto;
+}
+
+.Posts_blk {
+    width: 48%;
+    display: inline-block;
+    margin: 6px;
+}
+a.read_more {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 30px;
+}
+/* _________Page End________ */
+
+/* ________Page Start_________ */
+.src_filter {
+    display: none;
+}
+
+.social_link {}
+
+.header-area .social_link {
+    display: none;
+}
+
+.hero_slider_blk .title h1 {
+    font-size: 36px;
+}
+
+.hero_slider_blk .desi-description p {
+    max-width: 400px;
+}
+
+.hero_slider .owl-nav {
+    right: 10px;
+}
+.hero_slider_blk {
+    padding-top: 90px;
+}
+.commen_top,.comment_wrp {
+    padding-left: 0;
+}
+.Episode_left {
+    width: 100%;
+}
+
+.Episode_right {
+    width: 100%;
+}
+
+.Episode_wrp {
+    flex-wrap: wrap;
+    margin-left: 0;
+}
+
+ul.pagination.pagination-lg.justify-content-center {
+    margin-bottom: 50px;
+}
+
+.card_blk {
+    flex: 0 0 31%;
+    max-width: 100%;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.Episode_card_wrp {
+    justify-content: space-between;
+}
+/* _________Page End________ */
+
+.OnePiece_left {
+    margin: 0;
+}
+
+.OnePiece_content {
+    max-width: 100%;
+    margin-left: 20px;
+}
+
+.OnePiece_content .dot {
+    margin: 1px;
+}
+
+.Piece_btn a {
+    font-size: 14px;
+}
+
+.PG_btn {
+    margin-bottom: 10px;
+}
 
 }
 
  
 /* small screen :320px. */
 @media (max-width: 767px) {
+/* ________Page Start_________ */
+.header-area.zoro_header{
+    padding-top: 30px;
+}
+img.zoroHero {
+    display: none;
+}
 
+.zoro-hero_home {
+    max-width: 360px;
+    margin: auto;
+    padding: 75px 0 10px;
+}
+
+.zoro-hero_home .logo {
+    text-align: center;
+    width: max-content;
+    margin: auto;
+}
+
+.src_bar input {
+    max-width: 80%;
+    height: 40px;
+}
+
+.src_bar a {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+}
+.share_zoro_right {
+    margin: auto;
+}
+.hero_home_btn a {
+    font-size: 16px;
+}
+h1.mw-heading {
+    font-size: 20px;
+}
+
+.share_zoro_left h2 {
+    font-size: 18px;
+}
+/* _________Page End________ */
+
+
+
+/* ________Page Start_________ */
+.src_filter {
+    display: none;
+}
+
+.social_link {
+    margin: 0;
+}
+
+.header-area .social_link {
+    display: none;
+}
+
+.header-area .extra_link {
+    display: none;
+}
+.hero_slider_blk ul {
+    display: none;
+}
+
+.hero_slider_blk .title span {
+    font-size: 14px;
+}
+.donate {
+    display: none;
+}
+
+.hero_slider_blk .title h1 {
+    font-size: 22px;
+    max-width: 280px;
+    margin: 15px 0 15px;
+}
+
+.hero_slider_blk .desi-description p {
+    max-width: 256px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.hero_slider .owl-nav {
+    right: 10px;
+}
+.hero_slider_blk {
+    padding-top: 90px;
+}
+.commen_top,.comment_wrp {
+    padding-left: 0;
+}
+.Episode_left {
+    width: 100%;
+}
+
+.Episode_left .select_wrp:nth-child(2) {
+    border-bottom: 1px solid #484a50;
+    padding-bottom: 11px;
+}
+
+.Genre_tag ul {
+    height: 204px;
+    overflow-y: scroll;
+}
+
+.Episode_right {
+    width: 100%;
+}
+
+.Episode_right > div:last-child {
+    margin-bottom: auto;
+}
+
+.Episode_wrp {
+    flex-wrap: wrap;
+    margin-left: 0;
+}
+
+.owl_dot__scroll .owl-dot {
+    width: 15px;
+}
+
+.comment_slider_blk {
+    margin: auto;
+}
+
+.com__control_btn label {
+    display: none;
+}
+.Trending_slider_blk i {
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    height: 263px;
+}
+.card_blk .card_text a {
+    margin-bottom: 12px;
+    font-size: 15px;
+}
+.Trending_slider_blk {
+    height: 270px;
+    width: max-content;
+    position: relative;
+}
+
+.Trending_slider .owl-nav i {
+    height: 130px;
+}
+.schedule-full .bah-time {
+    display: block;
+    margin: auto;
+}
+.share_zoro_text.and_img {
+    display: none;
+}
+.block_area-header {
+    flex-direction: column;
+}
+
+.table_schedule .table_schedule-list li .time {
+    top: 30px;
+    left: 5px;
+}
+
+.table_schedule .table_schedule-list li .film-detail {
+    padding-left: 0;
+}
+
+.table_schedule .table_schedule-list li {
+    padding: 25px 0 1px;
+}
+.card_blk > i {
+    height: 250px;
+}
+.card_blk {
+    flex: 0 0 49%;
+    max-width: 100%;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.Episode_left .row {
+    width: 100%;
+}
+
+.card_blk_lg > i {
+    height: 300px;
+}
+.Episode_card_wrp {
+    justify-content: space-between;
+}
+
+.pagination {
+    margin-bottom: 30px;
+}
+.AZ_list {
+    display: none;
+}
+
+.footer_link {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer_logo {
+    flex-direction: column;
+    width: auto;
+    text-align: center;
+}
+
+.footer_logo .social_link ul li a.text {
+    display: none;
+}
+
+.footer_logo .logo {
+    margin: 0;
+    padding: 0;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.footer_link ul li:last-child {
+    margin-right: 0;
+}
+
+.footer_btm {
+    text-align: center;
+}
+
+.footer_btm p {
+    margin-top: 12px;
+}
+
+footer.footer_area {
+    padding-bottom: 20px;
+}
+
+section.Episode-Area {
+    margin-bottom: 50px;
+}
+.number {
+    font-size: 16px;
+}
+/* _________Page End________ */
+
+
+/* _________Page Start________ */
+.OnePiece_left {
+    margin: auto;
+    flex-direction: column;
+}
+
+.OnePiece_content {
+    margin: 0;
+}
+
+.OnePiece_content h1 {
+    font-size: 30px;
+}
+
+.PG_btn {
+    margin-bottom: 10px;
+}
+
+.Piece_btn a {
+    font-size: 13px;
+    padding: 8px 16px;
+    margin-right: 10px;
+}
+
+.PG_btn .dot {
+    margin: 4px;
+}
+
+section.OnePiece-Area {
+    padding: 40px 0 20px;
+}
+
+.sec_title h4 {
+    font-size: 20px;
+}
+
+.Actors_wrp {
+    flex-direction: column;
+}
+
+.Actors_blk {
+    width: 100%;
+}
+
+.Videos_wrp {
+    flex-direction: column;
+}
+
+.Videos_bkl {
+    width: 100%;
+}
+
+.Videos_bkl a > i {
+    height: 170px;
+}
+/* _________Page End________ */
  
 }
  
 /* Large Mobile screen :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 .container {width:450px}
- 
+ .zoro-hero_home{
+    max-width: 450px;
+}
 }
