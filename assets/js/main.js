@@ -257,4 +257,9 @@ showTime();
 $('.Genres_wrp .more_btn').click(function() {
   $('.Genres_wrp ul').toggleClass('sb-genre-less')
 })
+ 
+$('.login_btn a.src_btn').click(function() {
+  $('.Src__filer_hiden').toggleClass('show')
+  $(this).toggleClass('show')
+})
 })(jQuery);
