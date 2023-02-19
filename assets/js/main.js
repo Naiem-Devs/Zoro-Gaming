@@ -3,7 +3,8 @@
   
  // menu 
   $('.siteBar-btn').click( function (){ 
-    $('.mobile-menu').toggleClass('siteBar');   
+    $('.mobile-menu').toggleClass('siteBar');
+    $('body').toggleClass('siteBar_activeted');
   }); 
 
   $(window).scroll(function(){
@@ -13,7 +14,7 @@
     else {
         $('.header-area').removeClass('fixed-header');
     }
-});
+  });
 
 
   // owlCarousel
@@ -147,12 +148,46 @@
     }
   });
 
-
-
   $("#scl-more").click(function () {
     $(this).parent().find(".limit-8").toggleClass("active");
     $(this).toggleClass("active");
 });
+
+
+
+function SearchEpNow() {
+  let searchInp = document.querySelectorAll('#searchEpisode')
+  if (searchInp.length > 0) {
+    searchInp.forEach(sInp => {
+      sInp.addEventListener('keyup', (e) => {
+        let trg = e.target
+        let uList = trg.parentElement.parentElement.parentElement.parentElement.parentElement.querySelectorAll('.eps-left > ul li')
+        if (trg.value.length > 0) {
+          uList.forEach(li => { 
+            if (!li.textContent.includes(trg.value.trim())) {
+              li.classList.add('d-none')
+            }
+          }); 
+        }else{
+          uList.forEach(li => { 
+            if (li.textContent.includes(trg.value)) {
+              li.classList.remove('d-none')
+            }
+          });  
+        }
+      })
+    })
+  }
+}
+SearchEpNow()
+
+
+
+
+
+
+
+
 
 if ($('.table_schedule-list li').length > 7) {
     $('#scl-more').show();
@@ -256,5 +291,9 @@ showTime();
  
 $('.Genres_wrp .more_btn').click(function() {
   $('.Genres_wrp ul').toggleClass('sb-genre-less')
+  $('.Genres_wrp .more_btn').toggleClass('sbgenrelesed')
 })
+
+
+
 })(jQuery);
