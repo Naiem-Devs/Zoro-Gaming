@@ -324,7 +324,19 @@ li {
 .mobile-menu .siteBar-btn i {
     margin-right: 3px;
 }
-body.siteBar_activeted:after {
+.menuOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(32,33,37,.8);
+    z-index: 99;
+    transition: .2s;
+    opacity: 0;
+    visibility: hidden;
+}
+/* body.siteBar_activeted:after {
     content: "";
     position: absolute;
     width: 100%;
@@ -336,11 +348,12 @@ body.siteBar_activeted:after {
     opacity: 0;
     visibility: hidden;
     transition: .2s;
-}
-body.siteBar_activeted:after {
+} */
+body.siteBar_activeted .menuOverlay {
     opacity: 1;
     visibility: visible;
 }
+
 .src_filter {margin: 0 20px;height: 40px;color: #111;padding-left: 15px;font-size: 15px;font-weight: 400;background: #fff;border-radius: 0;border: none;box-shadow: 0 3px 3px rgba(0,0,0,.05)!important;display: flex;align-items: center;justify-content: space-between;max-width: 400px;width: 100%;padding: 10px;margin-right: 29px;margin-left: 17px;}
 
 a.filer_icon {
@@ -1696,7 +1709,13 @@ a.viwe_link i {
     font-size: 12px;
     color: #aaa
 }
+.all_contents_here > div {
+    display: none;
+}
 
+.all_contents_here > .active {
+    display: block;
+}
 .table_schedule .btn-showmore {
     border-radius: 0;
     background: #2a2c31!important;
@@ -2262,7 +2281,7 @@ section.OnePiece-Area.oamain .OnePiece_left {
     margin-bottom: 50px;
 }
 .OnePiece-cover {inset: -20px;background-size: cover;background-position: center center;filter: blur(20px);opacity: 0.35;position: absolute;width: 100%;background-image: url(./assets/img/ts-1.jpg);z-index: -1;}
-.OnePiece_left {position: relative;display: flex;margin-left: 200px;padding: 100px 0;}
+.OnePiece_left {position: relative;display: flex;margin-left: 200px;padding: 70px 0;}
 .OnePiece_img {max-width: 180px;width: 100%;}
 
 .OnePiece_img i {
@@ -2677,15 +2696,15 @@ section.OnePiece-Area.oamain .OnePiece_left {
 }
 .eps-wrp {
     display: flex;
+    width: 100%;
 }
 
 .eps-wrp .eps-left {
-    width: 27%;
+    width: 22%;
     background: #2b2b2b;
     padding: 10px;
     position: relative;
-    z-index: 2;
-    max-width: 27%;
+    z-index: 2; 
 }
 .eps-wrp .eps-left:after {
     content: "";
@@ -2699,7 +2718,7 @@ section.OnePiece-Area.oamain .OnePiece_left {
 }
 .eps-wrp .eps-right {
     background: #111;
-    width: 73%;
+    width: 78%;
 }
 section.OnePiece-Area.oamain .OnePiece_left,section.OnePiece-Area.oamain .OnePiece_right {
     /* margin: 0; */

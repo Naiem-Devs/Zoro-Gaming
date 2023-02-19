@@ -707,7 +707,9 @@ a.view_d {
     margin-bottom: 20px;
 }
 /* _________Page End________ */
-
+section.OnePiece-Area.oamain .OnePiece_left{
+    padding-bottom: 0;
+}
 
 
 }
@@ -865,8 +867,8 @@ a.src_btn.show {
 }
 
 .Genre_tag ul {
-    height: 204px;
-    overflow-y: scroll;
+    max-height: 204px;
+    overflow-y: auto;
 }
 
 .Episode_right {
@@ -1065,8 +1067,11 @@ section.Episode-Area {
     margin-bottom: 10px;
     flex-wrap: wrap;
     width: 100%;
+    justify-content: center;
 }
-
+.OnePiece_content .share_zoro_text { 
+    text-align: left;
+}
 .Piece_btn a {
     font-size: 13px;
     padding: 8px 16px;
@@ -1294,7 +1299,24 @@ a.view_d {
     display: none;
 }
 /* _________Page End________ */
- 
+section.OnePiece-Area.oamain .OnePiece_left{
+    padding-bottom: 0;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-top: 30px;
+}
+.OnePiece_img { 
+    margin: auto;
+}
+.OnePiece_righttwo { 
+    max-width: 100%; 
+    padding: 50px 25px; 
+}
+
+
+
+
+
 }
  
 /* Large Mobile screen :480px. */
